@@ -1,0 +1,66 @@
+# ==========================================
+# 1. Dependency Directories (Node & React)
+# ==========================================
+node_modules/
+jspm_packages/
+.npm/
+.eslintcache
+
+# ==========================================
+# 2. Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+config.json
+
+# ==========================================
+# 3. Production Builds & Artifacts
+# ==========================================
+# React / Vite build folders
+build/
+dist/
+out/
+
+# ==========================================
+# 4. Logs and Databases
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.node_repl_history
+
+# Local MongoDB files (if running Mongo locally)
+*.sock
+*.lock
+*.pid
+data/
+db/
+
+# ==========================================
+# 5. Testing and Coverage
+# ==========================================
+coverage/
+.nyc_output/
+
+# ==========================================
+# 6. IDEs, Editors & System Files
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
